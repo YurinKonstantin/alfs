@@ -44,7 +44,7 @@ sudo mount -t ext4 /dev/sdb1 $LFS
 Возьмите файлы проекта alfs
 
 ```bash
-sudo git clone https://github.com/mattwind/alfs.git $ALFS
+sudo git clone https://github.com/YurinKonstantin/alfs.git $ALFS
 cd $ALFS
 ```
 
