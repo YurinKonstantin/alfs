@@ -5,8 +5,8 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-SRC_FILE=lfs-bootscripts-20200818.tar.xz
-SRC_FOLDER=lfs-bootscripts-20200818
+SRC_FILE=lfs-bootscripts-20220723.tar.xz
+SRC_FOLDER=lfs-bootscripts-20220723
 
 cd /sources
 
