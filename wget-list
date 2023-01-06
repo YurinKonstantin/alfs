@@ -81,8 +81,8 @@ https://tukaani.org/xz/xz-5.2.5.tar.xz
 https://zlib.net/zlib-1.2.13.tar.xz
 https://github.com/facebook/zstd/releases/download/v1.4.5/zstd-1.4.5.tar.gz
 https://linuxfromscratch.org/patches/downloads/bash/bash-5.0-upstream_fixes-1.patch
-http://lfs.mirror.fileplanet.com/patches/lfs/10.0/bzip2-1.0.8-install_docs-1.patch
-http://lfs.mirror.fileplanet.com/patches/lfs/10.0/coreutils-8.32-i18n-1.patch
-http://lfs.mirror.fileplanet.com/patches/lfs/10.0/glibc-2.32-fhs-1.patch
-http://lfs.mirror.fileplanet.com/patches/lfs/10.0/kbd-2.3.0-backspace-1.patch
-http://lfs.mirror.fileplanet.com/patches/lfs/10.0/sysvinit-2.97-consolidated-1.patch
+https://linuxfromscratch.org/patches/downloads/bzip2/bzip2-1.0.8-install_docs-1.patch
+https://linuxfromscratch.org/patches/downloads/coreutils/coreutils-8.32-i18n-1.patch
+https://linuxfromscratch.org/patches/downloads/glibc/glibc-2.32-fhs-1.patch
+https://linuxfromscratch.org/patches/downloads/kbd/kbd-2.3.0-backspace-1.patch
+https://linuxfromscratch.org/patches/downloads/sysvinit/sysvinit-2.97-consolidated-1.patch
