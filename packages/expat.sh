@@ -5,8 +5,8 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-SRC_FILE=expat-2.2.9.tar.xz
-SRC_FOLDER=expat-2.2.9
+SRC_FILE=expat-2.5.0.tar.xz
+SRC_FOLDER=expat-2.5.0
 
 cd /sources
 
