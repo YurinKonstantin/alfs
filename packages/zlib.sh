@@ -5,8 +5,8 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-SRC_FILE=zlib-1.2.11.tar.xz
-SRC_FOLDER=zlib-1.2.11
+SRC_FILE=zlib-1.2.13.tar.xz
+SRC_FOLDER=zlib-1.2.13
 
 cd /sources
 
