@@ -59,13 +59,27 @@ cd $ALFS
 Настройка пользовательской среды LFS
 
 `sudo -E $ALFS/useradd_lfs.sh`
+Скрипт настройки пока работает не верно, после его выполнение необходимо произвести ряд изменений описанных
+https://lx4u.ru/rel/stable/prepare/add-user/
+https://lx4u.ru/rel/stable/prepare/set-env/
+Добавив изменение переменных.
+
+## Применение изменений
+source ~/.bash_profile
+
+## Выйдите из lfs 
+exit
+
+## Предоставим пользователю lin полный доступ к каталогам будущей ОС
+chown -vR lfs $LFS
+
 
 ## Создание набора инструментов
 
 Эти скрипты необходимы для запуска от имени нового пользователя lfs
 
 ```bash
-sudo su lfs 
+sudo su - lfs 
 $ALFS/scripts/build_toolchain.sh
 $ALFS/scripts/build_temp-toolchain.sh
 exit
