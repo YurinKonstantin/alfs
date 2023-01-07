@@ -1,6 +1,13 @@
 # Автоматизированный Linux с нуля 10.0 (SysV)
 
 Протестировано с Debian 10 Buster (Не мной).
+Ос собирается на ubuntu, но запустьть образ на виртуалке или реальном жедлезе не получается. 
+Выдает:
+VFS: Cannot open root device "nvme0n1p5" or unknown-block(0,0): eror -6
+Please append a correct "root=" boot option; here are the availabe partitionns:
+Kernel panic - not syncing: VFS: Uable to mount root fs on unknon-block(0,0)
+
+# Если кто найдет ошибку или сможет запустить ОС, то напишите решений
 
 *Этот проект основан на официальной книге LFS 10.0
 
